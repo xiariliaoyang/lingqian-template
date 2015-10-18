@@ -1,0 +1,98 @@
+body {
+    padding-top: 44px;
+    background-color: #f5f5f5;
+color: #231e1f
+}
+a,a:hover{
+	text-decoration: none;
+}
+.nav-title {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.nav-title .title{
+	line-height: 44px;
+}
+.dashborad {
+    height: 220px;
+    padding: 23px 0 20px 20px;
+    background: #ec4949;
+    color: #ffa391;
+}
+
+.dashborad .income-title {
+    padding-top: 2px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+.dashborad .income-title span{
+	font-size: 12px;
+}
+.dashborad .income-detail{
+	padding:18px 0;
+}
+.dashborad .income-num {
+    font-family: "35", Helveticaneue-Thin;
+    font-size: 70px;
+    color: #fff;
+    line-height: 70px;
+    font-weight: 300;
+    margin-left: -3px;
+    margin-bottom: 3px;
+}
+.dashborad .income-detail{
+	position: relative;
+}
+.dashborad .income-detail .account-balance{
+	font-size: 14px;
+	display: block;
+}
+.income-detail > div > span{
+	font-family: "35", Helveticaneue-Thin;
+}
+.income-detail > a.pay-btn{
+	border: 1px solid #ff9087;
+	border-radius: 35px;
+	position: absolute;
+	top: 18px;
+	right: 15px;
+	padding: 10px 20px;
+	width: 100px;
+	font-size: 14px;
+	line-height: 15px;
+	color: #ff9087;
+}
+.income-detail > a.pay-btn:active{
+	background: #ec3b3d;
+}
+.dashborad-user{
+	margin-top: 0;
+}
+.dashborad-user .user-img{
+	width:20px;
+	height:20px;
+	margin-right: 5px;
+	display: block;
+}
+.product-category{
+	background:#fff;
+	margin-top: 10px;
+}
+.product-category a{
+	text-align: center;
+	padding:15px 0;
+	display: inline-block;
+}
+.product-category a img{
+	width:40px;
+	margin-bottom: 15px;
+}
+.product-category a:first-child{
+	border-right: 1px solid rgb(240, 240, 240)
+}
+.ui-list p{
+	margin:0;
+}
